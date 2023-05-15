@@ -1,8 +1,8 @@
-package com.herpestes.retrofitkotlin
+package com.herpestes.retrofitkotlin.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import retrofit2.Retrofit
+import com.herpestes.retrofitkotlin.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
