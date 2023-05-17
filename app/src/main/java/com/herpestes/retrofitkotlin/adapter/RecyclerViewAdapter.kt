@@ -43,7 +43,7 @@ class RecyclerViewAdapter(private val cryptoList: ArrayList<CryptoModel>, privat
     }
 
     override fun onBindViewHolder(holder: RowHolder, position: Int) {
-        holder.bind(cryptoList[position], colors, position, listener)
+        holder.bind(cryptoList, colors, position, listener)
 
 
     }
